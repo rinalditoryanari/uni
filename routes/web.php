@@ -15,6 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
 //    return view('welcome');
-Route::get('/', function (){
+Route::get('/', function () {
+    return redirect('dashboard-1');
+});
+
+//Dashboard
+Route::get('dashboard-1', function () {
     return view('pages.index');
+});
+Route::get('dashboard-2', function () {
+    return view('pages.index2');
+});
+Route::get('dashboard-3', function () {
+    return view('pages.index3');
 });

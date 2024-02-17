@@ -1,6 +1,6 @@
 <div class="left-side-bar">
     <div class="brand-logo">
-        <a href="index.html">
+        <a href="{{url('/dsahboard-1')}}">
             <img src="{{asset('images/deskapp-logo.svg')}}" alt="" class="dark-logo"/>
             <img src="{{asset('images/deskapp-logo-white.svg')}}" alt="" class="light-logo"/>
         </a>
@@ -17,9 +17,9 @@
                         <span class="mtext">Home</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="index.blade.html">Dashboard style 1</a></li>
-                        <li><a href="../page/index2.html">Dashboard style 2</a></li>
-                        <li><a href="../page/index3.html">Dashboard style 3</a></li>
+                        <li><a href="{{url('/dashboard-1')}}">Dashboard style 1</a></li>
+                        <li><a href="{{url('/dashboard-2')}}">Dashboard style 2</a></li>
+                        <li><a href="{{url('/dashboard-3')}}">Dashboard style 3</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
