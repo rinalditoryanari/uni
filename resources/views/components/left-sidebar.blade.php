@@ -17,9 +17,15 @@
                         <span class="mtext">Home</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="{{url('/dashboard-1')}}">Dashboard style 1</a></li>
-                        <li><a href="{{url('/dashboard-2')}}">Dashboard style 2</a></li>
-                        <li><a href="{{url('/dashboard-3')}}">Dashboard style 3</a></li>
+                        <li><a class="{{ Request::is('dashboard-1') ? 'active':''}}" href="{{url('/dashboard-1')}}">
+                                Dashboard style 1</a>
+                        </li>
+                        <li><a class="{{ Request::is('dashboard-2') ? 'active':''}}" href="{{url('/dashboard-2')}}">
+                                Dashboard style 2</a>
+                        </li>
+                        <li><a class="{{ Request::is('dashboard-3') ? 'active':''}}" href="{{url('/dashboard-3')}}">
+                                Dashboard style 3</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
