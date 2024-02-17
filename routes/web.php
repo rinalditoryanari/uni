@@ -52,3 +52,11 @@ Route::get('image-cropper', function () {
 Route::get('image-dropzone', function () {
     return view('pages.image-dropzone');
 });
+
+//Table
+Route::get('basic-table', function () {
+    return view('pages.basic-table');
+});
+Route::get('datatable', function () {
+    return view('pages.datatable');
+});

@@ -62,8 +62,10 @@
                         <span class="mtext">Tables</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/basic-table.html">Basic Tables</a></li>
-                        <li><a href="../page/datatable.html">DataTables</a></li>
+                        <li><a class="{{ Request::is('basic-table') ? 'active':''}}"
+                                href="{{url('/basic-table')}}">Basic Tables</a></li>
+                        <li><a class="{{ Request::is('datatable') ? 'active':''}}"
+                                href="{{url('/datatable')}}">DataTables</a></li>
                     </ul>
                 </li>
                 <li>
@@ -233,7 +235,7 @@
                         class="dropdown-toggle no-arrow">
                         <span class="micon bi bi-layout-text-window-reverse"></span>
                         <span class="mtext">Landing Page
-                            <img src="{{asset('styles/core.css')}}" width="25"/>
+                            <img src="{{asset('images/coming-soon.png')}}" width="25"/>
                         </span>
                     </a>
                 </li>
