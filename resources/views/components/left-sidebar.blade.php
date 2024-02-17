@@ -69,7 +69,8 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="../page/calendar.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('calendar') ? 'active':''}}"
+                        href="{{url('/calendar')}}">
                         <span class="micon bi bi-calendar4-week"></span>
                         <span class="mtext">Calendar</span>
                     </a>

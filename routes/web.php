@@ -60,3 +60,8 @@ Route::get('basic-table', function () {
 Route::get('datatable', function () {
     return view('pages.datatable');
 });
+
+//Calendar
+Route::get('calendar', function () {
+    return view('pages.calendar');
+});
