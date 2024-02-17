@@ -13,8 +13,8 @@
             <ul id="accordion-menu">
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-house"></span
-                                ><span class="mtext">Home</span>
+                        <span class="micon bi bi-house"></span>
+                        <span class="mtext">Home</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="index.blade.html">Dashboard style 1</a></li>
@@ -24,8 +24,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-textarea-resize"></span
-                                ><span class="mtext">Forms</span>
+                        <span class="micon bi bi-textarea-resize"></span>
+                        <span class="mtext">Forms</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/form-basic.html">Form Basic</a></li>
@@ -41,8 +41,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-table"></span
-                                ><span class="mtext">Tables</span>
+                        <span class="micon bi bi-table"></span>
+                        <span class="mtext">Tables</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/basic-table.html">Basic Tables</a></li>
@@ -51,14 +51,14 @@
                 </li>
                 <li>
                     <a href="../page/calendar.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-calendar4-week"></span
-                                ><span class="mtext">Calendar</span>
+                        <span class="micon bi bi-calendar4-week"></span>
+                        <span class="mtext">Calendar</span>
                     </a>
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-archive"></span
-                                ><span class="mtext"> UI Elements </span>
+                        <span class="micon bi bi-archive"></span>
+                        <span class="mtext"> UI Elements </span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/ui-buttons.html">Buttons</a></li>
@@ -81,8 +81,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-command"></span
-                                ><span class="mtext">Icons</span>
+                        <span class="micon bi bi-command"></span>
+                        <span class="mtext">Icons</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/bootstrap-icon.html">Bootstrap Icons</a></li>
@@ -95,8 +95,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-pie-chart"></span
-                                ><span class="mtext">Charts</span>
+                        <span class="micon bi bi-pie-chart"></span>
+                        <span class="mtext">Charts</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/highchart.html">Highchart</a></li>
@@ -107,8 +107,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-file-earmark-text"></span
-                                ><span class="mtext">Additional Pages</span>
+                        <span class="micon bi bi-file-earmark-text"></span>
+                        <span class="mtext">Additional Pages</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/video-player.html">Video Player</a></li>
@@ -119,8 +119,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-bug"></span
-                                ><span class="mtext">Error Pages</span>
+                        <span class="micon bi bi-bug"></span>
+                        <span class="mtext">Error Pages</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/400.html">400</a></li>
@@ -133,8 +133,8 @@
 
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-back"></span
-                                ><span class="mtext">Extra Pages</span>
+                        <span class="micon bi bi-back"></span>
+                        <span class="mtext">Extra Pages</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/blank.html">Blank</a></li>
@@ -151,8 +151,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-hdd-stack"></span
-                                ><span class="mtext">Multi Level Menu</span>
+                        <span class="micon bi bi-hdd-stack"></span>
+                        <span class="mtext">Multi Level Menu</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="javascript:">Level 1</a></li>
@@ -160,8 +160,8 @@
                         <li><a href="javascript:">Level 1</a></li>
                         <li class="dropdown">
                             <a href="javascript:" class="dropdown-toggle">
-										<span class="micon fa fa-plug"></span
-                                        ><span class="mtext">Level 2</span>
+                                <span class="micon fa fa-plug"></span>
+                                <span class="mtext">Level 2</span>
                             </a>
                             <ul class="submenu child">
                                 <li><a href="javascript:">Level 2</a></li>
@@ -175,20 +175,20 @@
                 </li>
                 <li>
                     <a href="../page/sitemap.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-diagram-3"></span
-                                ><span class="mtext">Sitemap</span>
+                        <span class="micon bi bi-diagram-3"></span>
+                        <span class="mtext">Sitemap</span>
                     </a>
                 </li>
                 <li>
                     <a href="../page/chat.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-chat-right-dots"></span
-                                ><span class="mtext">Chat</span>
+                        <span class="micon bi bi-chat-right-dots"></span>
+                        <span class="mtext">Chat</span>
                     </a>
                 </li>
                 <li>
                     <a href="../page/invoice.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-receipt-cutoff"></span
-                                ><span class="mtext">Invoice</span>
+                        <span class="micon bi bi-receipt-cutoff"></span>
+                        <span class="mtext">Invoice</span>
                     </a>
                 </li>
                 <li>
@@ -199,8 +199,8 @@
                 </li>
                 <li>
                     <a href="javascript:" class="dropdown-toggle">
-								<span class="micon bi bi-file-pdf"></span
-                                ><span class="mtext">Documentation</span>
+                        <span class="micon bi bi-file-pdf"></span>
+                        <span class="mtext">Documentation</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="../page/introduction.html">Introduction</a></li>
@@ -212,16 +212,12 @@
                     </ul>
                 </li>
                 <li>
-                    <a
-                        href="https://dropways.github.io/deskapp-free-single-page-website-template/"
-                        target="_blank"
-                        class="dropdown-toggle no-arrow"
-                    >
+                    <a href="https://dropways.github.io/deskapp-free-single-page-website-template/" target="_blank"
+                        class="dropdown-toggle no-arrow">
                         <span class="micon bi bi-layout-text-window-reverse"></span>
-                        <span class="mtext"
-                        >Landing Page
-									<img src="{{asset('styles/core.css')}}" width="25"
-                                    /></span>
+                        <span class="mtext">Landing Page
+                            <img src="{{asset('styles/core.css')}}" width="25"/>
+                        </span>
                     </a>
                 </li>
             </ul>

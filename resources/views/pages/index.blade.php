@@ -62,8 +62,7 @@
                             <div class="icon">
                                 <i
                                     class="icon-copy fa fa-stethoscope"
-                                    aria-hidden="true"
-                                ></i>
+                                    aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
@@ -90,8 +89,7 @@
             <div class="col-md-8 mb-20">
                 <div class="card-box height-100-p pd-20">
                     <div
-                        class="d-flex flex-wrap justify-content-between align-items-center pb-0 pb-md-3"
-                    >
+                        class="d-flex flex-wrap justify-content-between align-items-center pb-0 pb-md-3">
                         <div class="h5 mb-md-0">Hospital Activities</div>
                         <div class="form-group mb-md-0">
                             <select class="form-control form-control-sm selectpicker">
@@ -108,8 +106,7 @@
             <div class="col-md-4 mb-20">
                 <div
                     class="card-box min-height-200px pd-20 mb-20"
-                    data-bgcolor="#455a64"
-                >
+                    data-bgcolor="#455a64">
                     <div class="d-flex justify-content-between pb-20 text-white">
                         <div class="icon h1 text-white">
                             <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -159,27 +156,20 @@
                     <div class="d-flex justify-content-between pb-10">
                         <div class="h5 mb-0">Top Doctors</div>
                         <div class="dropdown">
-                            <a
-                                class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-                                data-color="#1b3133"
-                                href="#"
-                                role="button"
-                                data-toggle="dropdown"
-                            >
+                            <a class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
+                                data-color="#1b3133" href="#" role="button" data-toggle="dropdown">
                                 <i class="dw dw-more"></i>
                             </a>
-                            <div
-                                class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-                            >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-eye"></i> View</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-edit2"></i> Edit</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-delete-3"></i> Delete</a
-                                >
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-eye"></i> View
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-edit2"></i> Edit
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-delete-3"></i> Delete
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -197,12 +187,10 @@
                                         />
                                     </div>
                                     <div class="txt">
-												<span
-                                                    class="badge badge-pill badge-sm"
-                                                    data-bgcolor="#e7ebf5"
-                                                    data-color="#265ed7"
-                                                >4.9</span
-                                                >
+                                        <span class="badge badge-pill badge-sm" data-bgcolor="#e7ebf5"
+                                            data-color="#265ed7">
+                                            4.9
+                                        </span>
                                         <div class="font-14 weight-600">Dr. Neil Wagner</div>
                                         <div class="font-12 weight-500" data-color="#b2b1b6">
                                             Pediatrician
@@ -210,9 +198,7 @@
                                     </div>
                                 </div>
                                 <div class="cta flex-shrink-0">
-                                    <a href="#" class="btn btn-sm btn-outline-primary"
-                                    >Schedule</a
-                                    >
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Schedule</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center justify-content-between">
@@ -227,12 +213,12 @@
                                         />
                                     </div>
                                     <div class="txt">
-												<span
-                                                    class="badge badge-pill badge-sm"
-                                                    data-bgcolor="#e7ebf5"
-                                                    data-color="#265ed7"
-                                                >4.9</span
-                                                >
+                                        <span
+                                            class="badge badge-pill badge-sm"
+                                            data-bgcolor="#e7ebf5"
+                                            data-color="#265ed7">
+                                            4.9
+                                        </span>
                                         <div class="font-14 weight-600">Dr. Ren Delan</div>
                                         <div class="font-12 weight-500" data-color="#b2b1b6">
                                             Pediatrician
@@ -240,9 +226,7 @@
                                     </div>
                                 </div>
                                 <div class="cta flex-shrink-0">
-                                    <a href="#" class="btn btn-sm btn-outline-primary"
-                                    >Schedule</a
-                                    >
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Schedule</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center justify-content-between">
@@ -257,12 +241,12 @@
                                         />
                                     </div>
                                     <div class="txt">
-												<span
-                                                    class="badge badge-pill badge-sm"
-                                                    data-bgcolor="#e7ebf5"
-                                                    data-color="#265ed7"
-                                                >4.9</span
-                                                >
+                                        <span
+                                            class="badge badge-pill badge-sm"
+                                            data-bgcolor="#e7ebf5"
+                                            data-color="#265ed7">
+                                            4.9
+                                        </span>
                                         <div class="font-14 weight-600">Dr. Garrett Kincy</div>
                                         <div class="font-12 weight-500" data-color="#b2b1b6">
                                             Pediatrician
@@ -270,29 +254,21 @@
                                     </div>
                                 </div>
                                 <div class="cta flex-shrink-0">
-                                    <a href="#" class="btn btn-sm btn-outline-primary"
-                                    >Schedule</a
-                                    >
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Schedule</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center justify-content-between">
                                 <div class="name-avatar d-flex align-items-center pr-2">
                                     <div class="avatar mr-2 flex-shrink-0">
-                                        <img
-                                            src="{{asset('images/photo4.jpg')}}"
-                                            class="border-radius-100 box-shadow"
-                                            width="50"
-                                            height="50"
-                                            alt=""
+                                        <img src="{{asset('images/photo4.jpg')}}" class="border-radius-100 box-shadow"
+                                            width="50" height="50" alt=""
                                         />
                                     </div>
                                     <div class="txt">
-												<span
-                                                    class="badge badge-pill badge-sm"
-                                                    data-bgcolor="#e7ebf5"
-                                                    data-color="#265ed7"
-                                                >4.9</span
-                                                >
+                                        <span class="badge badge-pill badge-sm" data-bgcolor="#e7ebf5"
+                                            data-color="#265ed7">
+                                            4.9
+                                        </span>
                                         <div class="font-14 weight-600">Dr. Callie Reed</div>
                                         <div class="font-12 weight-500" data-color="#b2b1b6">
                                             Pediatrician
@@ -300,9 +276,7 @@
                                     </div>
                                 </div>
                                 <div class="cta flex-shrink-0">
-                                    <a href="#" class="btn btn-sm btn-outline-primary"
-                                    >Schedule</a
-                                    >
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Schedule</a>
                                 </div>
                             </li>
                         </ul>
@@ -319,22 +293,19 @@
                                 data-color="#1b3133"
                                 href="#"
                                 role="button"
-                                data-toggle="dropdown"
-                            >
+                                data-toggle="dropdown">
                                 <i class="dw dw-more"></i>
                             </a>
-                            <div
-                                class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-                            >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-eye"></i> View</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-edit2"></i> Edit</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                ><i class="dw dw-delete-3"></i> Delete</a
-                                >
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-eye"></i> View
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-edit2"></i> Edit
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="dw dw-delete-3"></i> Delete
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -351,8 +322,7 @@
                         <div class="h5 mb-1">Upgrade to Pro</div>
                         <div
                             class="font-14 weight-500 max-width-200 mx-auto pb-20"
-                            data-color="#a6a6a7"
-                        >
+                            data-color="#a6a6a7">
                             You can enjoy all our features by upgrading to pro.
                         </div>
                         <a href="#" class="btn btn-primary btn-lg">Upgrade</a>
@@ -398,21 +368,17 @@
                     <td>Dr. Callie Reed</td>
                     <td>19 Oct 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Typhoid</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Typhoid
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -438,21 +404,17 @@
                     <td>Dr. Ren Delan</td>
                     <td>22 Jul 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Dengue</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Dengue
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -478,21 +440,17 @@
                     <td>Dr. Allen Hannagan</td>
                     <td>15 Nov 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Infection</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Infection
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -518,21 +476,17 @@
                     <td>Dr. Garrett Kincy</td>
                     <td>08 Oct 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Covid 19</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Covid 19
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -558,21 +512,17 @@
                     <td>Dr. Maxwell Soltes</td>
                     <td>12 Dec 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Asthma</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Asthma
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -598,21 +548,17 @@
                     <td>Dr. Sebastian Tandon</td>
                     <td>30 Oct 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Diabetes</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Diabetes
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -638,21 +584,17 @@
                     <td>Dr. Sebastian Tandon</td>
                     <td>15 Jun 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Diabetes</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Diabetes
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -678,21 +620,17 @@
                     <td>Dr. Ren Delan</td>
                     <td>22 Jul 2020</td>
                     <td>
-									<span
-                                        class="badge badge-pill"
-                                        data-bgcolor="#e7ebf5"
-                                        data-color="#265ed7"
-                                    >Dengue</span
-                                    >
+                        <span
+                            class="badge badge-pill"
+                            data-bgcolor="#e7ebf5"
+                            data-color="#265ed7">
+                            Dengue
+                        </span>
                     </td>
                     <td>
                         <div class="table-actions">
-                            <a href="#" data-color="#265ed7"
-                            ><i class="icon-copy dw dw-edit2"></i
-                                ></a>
-                            <a href="#" data-color="#e95959"
-                            ><i class="icon-copy dw dw-delete-3"></i
-                                ></a>
+                            <a href="#" data-color="#265ed7"><i class="icon-copy dw dw-edit2"></i></a>
+                            <a href="#" data-color="#e95959"><i class="icon-copy dw dw-delete-3"></i></a>
                         </div>
                     </td>
                 </tr>
