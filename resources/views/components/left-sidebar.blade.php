@@ -34,15 +34,26 @@
                         <span class="mtext">Forms</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/form-basic.html">Form Basic</a></li>
+                        <li><a class="{{ Request::is('form-basic') ? 'active':''}}"
+                                href="{{url('/form-basic')}}">
+                                Form Basic</a></li>
                         <li>
-                            <a href="../page/advanced-components.html">Advanced Components</a>
+                            <a class="{{ Request::is('advanced-components') ? 'active':''}}"
+                                href="{{url('/advanced-components')}}">
+                                Advanced Components</a>
                         </li>
-                        <li><a href="../page/form-wizard.html">Form Wizard</a></li>
-                        <li><a href="../page/html5-editor.html">HTML5 Editor</a></li>
-                        <li><a href="../page/form-pickers.html">Form Pickers</a></li>
-                        <li><a href="../page/image-cropper.html">Image Cropper</a></li>
-                        <li><a href="../page/image-dropzone.html">Image Dropzone</a></li>
+                        <li><a class="{{ Request::is('form-wizard') ? 'active':''}}"
+                                href="{{url('/form-wizard')}}">Form Wizard</a>
+                        </li>
+                        <li><a class="{{ Request::is('html5-editor') ? 'active':''}}"
+                                href="{{url('/html5-editor')}}">HTML5 Editor</a>
+                        </li>
+                        <li><a class="{{ Request::is('form-pickers') ? 'active':''}}"
+                                href="{{url('/form-pickers')}}">Form Pickers</a></li>
+                        <li><a class="{{ Request::is('image-cropper') ? 'active':''}}"
+                                href="{{url('/image-cropper')}}">Image Cropper</a></li>
+                        <li><a class="{{ Request::is('image-dropzone') ? 'active':''}}"
+                                href="{{url('/image-dropzone')}}">Image Dropzone</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

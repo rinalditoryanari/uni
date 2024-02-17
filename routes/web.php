@@ -29,3 +29,26 @@ Route::get('dashboard-2', function () {
 Route::get('dashboard-3', function () {
     return view('pages.index3');
 });
+
+//Forms
+Route::get('form-basic', function () {
+    return view('pages.form-basic');
+});
+Route::get('advanced-components', function () {
+    return view('pages.advanced-components');
+});
+Route::get('form-wizard', function () {
+    return view('pages.form-wizard');
+});
+Route::get('html5-editor', function () {
+    return view('pages.html5-editor');
+});
+Route::get('form-pickers', function () {
+    return view('pages.form-pickers');
+});
+Route::get('image-cropper', function () {
+    return view('pages.image-cropper');
+});
+Route::get('image-dropzone', function () {
+    return view('pages.image-dropzone');
+});
