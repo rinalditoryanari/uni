@@ -161,3 +161,21 @@ Route::get('forgot-password', function () {
 Route::get('reset-password', function () {
     return view('pages.reset-password');
 });
+
+//Errors Pages
+Route::get('400', function () {
+    return view('pages.400');
+});
+Route::get('403', function () {
+    return view('pages.403');
+});
+Route::get('404', function () {
+    return view('pages.404');
+});
+Route::get('500', function () {
+    return view('pages.500');
+});
+Route::get('503', function () {
+    return view('pages.503');
+});
+

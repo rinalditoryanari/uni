@@ -196,11 +196,16 @@
                         <span class="mtext">Error Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/400.html">400</a></li>
-                        <li><a href="../page/403.html">403</a></li>
-                        <li><a href="../page/404.html">404</a></li>
-                        <li><a href="../page/500.html">500</a></li>
-                        <li><a href="../page/503.html">503</a></li>
+                        <li><a class="{{ Request::is('400') ? 'active':''}}"
+                                href="{{url('/400')}}">400</a></li>
+                        <li><a class="{{ Request::is('403') ? 'active':''}}"
+                                href="{{url('/403')}}">403</a></li>
+                        <li><a class="{{ Request::is('404') ? 'active':''}}"
+                                href="{{url('/404')}}">404</a></li>
+                        <li><a class="{{ Request::is('500') ? 'active':''}}"
+                                href="{{url('/500')}}">500</a></li>
+                        <li><a class="{{ Request::is('503') ? 'active':''}}"
+                                href="{{url('/503')}}">503</a></li>
                     </ul>
                 </li>
 
