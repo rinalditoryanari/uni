@@ -65,3 +65,47 @@ Route::get('datatable', function () {
 Route::get('calendar', function () {
     return view('pages.calendar');
 });
+
+//UI Element
+Route::get('ui-buttons', function () {
+    return view('pages.ui-buttons');
+});
+Route::get('ui-cards', function () {
+    return view('pages.ui-cards');
+});
+Route::get('ui-cards-hover', function () {
+    return view('pages.ui-cards-hover');
+});
+Route::get('ui-modals', function () {
+    return view('pages.ui-modals');
+});
+Route::get('ui-tabs', function () {
+    return view('pages.ui-tabs');
+});
+Route::get('ui-tooltip-popover', function () {
+    return view('pages.ui-tooltip-popover');
+});
+Route::get('ui-sweet-alert', function () {
+    return view('pages.ui-sweet-alert');
+});
+Route::get('ui-notification', function () {
+    return view('pages.ui-notification');
+});
+Route::get('ui-timeline', function () {
+    return view('pages.ui-timeline');
+});
+Route::get('ui-progressbar', function () {
+    return view('pages.ui-progressbar');
+});
+Route::get('ui-typography', function () {
+    return view('pages.ui-typography');
+});
+Route::get('ui-list-group', function () {
+    return view('pages.ui-list-group');
+});
+Route::get('ui-range-slider', function () {
+    return view('pages.ui-range-slider');
+});
+Route::get('ui-carousel', function () {
+    return view('pages.ui-carousel');
+});

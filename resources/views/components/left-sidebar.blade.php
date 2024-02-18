@@ -81,22 +81,48 @@
                         <span class="mtext"> UI Elements </span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/ui-buttons.html">Buttons</a></li>
-                        <li><a href="../page/ui-cards.html">Cards</a></li>
-                        <li><a href="../page/ui-cards-hover.html">Cards Hover</a></li>
-                        <li><a href="../page/ui-modals.html">Modals</a></li>
-                        <li><a href="../page/ui-tabs.html">Tabs</a></li>
-                        <li>
-                            <a href="../page/ui-tooltip-popover.html">Tooltip &amp; Popover</a>
+                        <li><a class="{{ Request::is('ui-buttons') ? 'active':''}}"
+                                href="{{url('/ui-buttons')}}">Buttons</a>
                         </li>
-                        <li><a href="../page/ui-sweet-alert.html">Sweet Alert</a></li>
-                        <li><a href="../page/ui-notification.html">Notification</a></li>
-                        <li><a href="../page/ui-timeline.html">Timeline</a></li>
-                        <li><a href="../page/ui-progressbar.html">Progressbar</a></li>
-                        <li><a href="../page/ui-typography.html">Typography</a></li>
-                        <li><a href="../page/ui-list-group.html">List group</a></li>
-                        <li><a href="../page/ui-range-slider.html">Range slider</a></li>
-                        <li><a href="../page/ui-carousel.html">Carousel</a></li>
+                        <li><a class="{{ Request::is('ui-cards') ? 'active':''}}"
+                                href="{{url('/ui-cards')}}">Cards</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-cards-hover') ? 'active':''}}"
+                                href="{{url('/ui-cards-hover')}}">Cards Hover</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-modals') ? 'active':''}}"
+                                href="{{url('/ui-modals')}}">Modals</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-tabs') ? 'active':''}}"
+                                href="{{url('/ui-tabs')}}">Tabs</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-tooltip-popover') ? 'active':''}}"
+                                href="{{url('/ui-tooltip-popover')}}">Tooltip &amp; Popover</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-sweet-alert') ? 'active':''}}"
+                                href="{{url('/ui-sweet-alert')}}">Sweet Alert</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-notification') ? 'active':''}}"
+                                href="{{url('/ui-notification')}}">Notification</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-timeline') ? 'active':''}}"
+                                href="{{url('/ui-timeline')}}">Timeline</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-progressbar') ? 'active':''}}"
+                                href="{{url('/ui-progressbar')}}">Progressbar</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-typography') ? 'active':''}}"
+                                href="{{url('/ui-typography')}}">Typography</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-list-group') ? 'active':''}}"
+                                href="{{url('/ui-list-group')}}">List group</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-range-slider') ? 'active':''}}"
+                                href="{{url('/ui-range-slider')}}">Range slider</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-carousel') ? 'active':''}}"
+                                href="{{url('/ui-carousel')}}">Carousel</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
