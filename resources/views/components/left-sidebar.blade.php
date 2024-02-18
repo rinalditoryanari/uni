@@ -157,10 +157,18 @@
                         <span class="mtext">Charts</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/highchart.html">Highchart</a></li>
-                        <li><a href="../page/knob-chart.html">jQuery Knob</a></li>
-                        <li><a href="../page/jvectormap.html">jvectormap</a></li>
-                        <li><a href="../page/apexcharts.html">Apexcharts</a></li>
+                        <li><a class="{{ Request::is('highchart') ? 'active':''}}"
+                                href="{{url('/highchart')}}"> Highchart</a>
+                        </li>
+                        <li><a class="{{ Request::is('knob-chart') ? 'active':''}}"
+                                href="{{url('/knob-chart')}}"> jQuery Knob</a>
+                        </li>
+                        <li><a class="{{ Request::is('jvectormap') ? 'active':''}}"
+                                href="{{url('/jvectormap')}}"> jvectormap</a>
+                        </li>
+                        <li><a class="{{ Request::is('apexcharts') ? 'active':''}}"
+                                href="{{url('/apexcharts')}}"> Apexcharts</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">

@@ -131,4 +131,16 @@ Route::get('custom-icon', function () {
     return view('pages.custom-icon');
 });
 
-
+//Charts
+Route::get('highchart', function () {
+    return view('pages.highchart');
+});
+Route::get('knob-chart', function () {
+    return view('pages.knob-chart');
+});
+Route::get('jvectormap', function () {
+    return view('pages.jvectormap');
+});
+Route::get('apexcharts', function () {
+    return view('pages.apexcharts');
+});
