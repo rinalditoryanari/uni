@@ -109,3 +109,26 @@ Route::get('ui-range-slider', function () {
 Route::get('ui-carousel', function () {
     return view('pages.ui-carousel');
 });
+
+
+//Icon
+Route::get('bootstrap-icon', function () {
+    return view('pages.bootstrap-icon');
+});
+Route::get('font-awesome', function () {
+    return view('pages.font-awesome');
+});
+Route::get('foundation', function () {
+    return view('pages.foundation');
+});
+Route::get('ionicons', function () {
+    return view('pages.ionicons');
+});
+Route::get('themify', function () {
+    return view('pages.themify');
+});
+Route::get('custom-icon', function () {
+    return view('pages.custom-icon');
+});
+
+

@@ -131,12 +131,24 @@
                         <span class="mtext">Icons</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/bootstrap-icon.html">Bootstrap Icons</a></li>
-                        <li><a href="../page/font-awesome.html">FontAwesome Icons</a></li>
-                        <li><a href="../page/foundation.html">Foundation Icons</a></li>
-                        <li><a href="../page/ionicons.html">Ionicons Icons</a></li>
-                        <li><a href="../page/themify.html">Themify Icons</a></li>
-                        <li><a href="../page/custom-icon.html">Custom Icons</a></li>
+                        <li><a class="{{ Request::is('bootstrap-icon') ? 'active':''}}"
+                                href="{{url('/bootstrap-icon')}}"> Bootstrap Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('font-awesome') ? 'active':''}}"
+                                href="{{url('/font-awesome')}}"> FontAwesome Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('foundation') ? 'active':''}}"
+                                href="{{url('/foundation')}}"> Foundation Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('ionicons') ? 'active':''}}"
+                                href="{{url('/ionicons')}}"> Ionicons Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('themify') ? 'active':''}}"
+                                href="{{url('/themify')}}"> Themify Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('custom-icon') ? 'active':''}}"
+                                href="{{url('/custom-icon')}}"> Custom Icons</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
