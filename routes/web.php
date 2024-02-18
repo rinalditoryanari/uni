@@ -144,3 +144,20 @@ Route::get('jvectormap', function () {
 Route::get('apexcharts', function () {
     return view('pages.apexcharts');
 });
+
+//Additional Pages
+Route::get('video-player', function () {
+    return view('pages.video-player');
+});
+Route::get('login', function () {
+    return view('pages.login');
+});
+Route::get('register', function () {
+    return view('pages.register');
+});
+Route::get('forgot-password', function () {
+    return view('pages.forgot-password');
+});
+Route::get('reset-password', function () {
+    return view('pages.reset-password');
+});

@@ -177,10 +177,17 @@
                         <span class="mtext">Additional Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/video-player.html">Video Player</a></li>
-                        <li><a href="../page/login.html">Login</a></li>
-                        <li><a href="../page/forgot-password.html">Forgot Password</a></li>
-                        <li><a href="../page/reset-password.html">Reset Password</a></li>
+                        <li><a class="{{ Request::is('video-player') ? 'active':''}}"
+                                href="{{url('/video-player')}}"> Video Player</a>
+                        </li>
+                        <li><a class="{{ Request::is('login') ? 'active':''}}"
+                                href="{{url('/login')}}"> Login</a></li>
+                        <li><a class="{{ Request::is('forgot-password') ? 'active':''}}"
+                                href="{{url('/forgot-password')}}"> Forgot Password</a>
+                        </li>
+                        <li><a class="{{ Request::is('reset-password') ? 'active':''}}"
+                                href="{{url('/reset-password')}}"> Reset Password</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
