@@ -221,3 +221,17 @@ Route::get('chat', function () {
 Route::get('invoice', function () {
     return view('pages.invoice');
 });
+
+//Documentation
+Route::get('introduction', function () {
+    return view('pages.introduction');
+});
+Route::get('getting-started', function () {
+    return view('pages.getting-started');
+});
+Route::get('color-settings', function () {
+    return view('pages.color-settings');
+});
+Route::get('third-party-plugins', function () {
+    return view('pages.third-party-plugins');
+});

@@ -304,11 +304,17 @@
                         <span class="mtext">Documentation</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/introduction.html">Introduction</a></li>
-                        <li><a href="../page/getting-started.html">Getting Started</a></li>
-                        <li><a href="../page/color-settings.html">Color Settings</a></li>
-                        <li>
-                            <a href="../page/third-party-plugins.html">Third Party Plugins</a>
+                        <li><a class="{{ Request::is('introduction') ? 'active':''}}"
+                                href="{{url('/introduction')}}"> Introduction</a>
+                        </li>
+                        <li><a class="{{ Request::is('getting-started') ? 'active':''}}"
+                                href="{{url('/getting-started')}}"> Getting Started</a>
+                        </li>
+                        <li><a class="{{ Request::is('color-settings') ? 'active':''}}"
+                                href="{{url('/color-settings')}}"> Color Settings</a>
+                        </li>
+                        <li><a class="{{ Request::is('third-party-plugins') ? 'active':''}}"
+                                href="{{url('/third-party-plugins')}}"> Third Party Plugins</a>
                         </li>
                     </ul>
                 </li>
