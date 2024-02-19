@@ -210,3 +210,14 @@ Route::get('gallery', function () {
 Route::get('pricing-table', function () {
     return view('pages.pricing-table');
 });
+
+//Sitemap, Chat, Invoice
+Route::get('sitemap', function () {
+    return view('pages.sitemap');
+});
+Route::get('chat', function () {
+    return view('pages.chat');
+});
+Route::get('invoice', function () {
+    return view('pages.invoice');
+});

@@ -272,19 +272,22 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="../page/sitemap.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('sitemap') ? 'active':''}}"
+                        href="{{url('/sitemap')}}">
                         <span class="micon bi bi-diagram-3"></span>
                         <span class="mtext">Sitemap</span>
                     </a>
                 </li>
                 <li>
-                    <a href="../page/chat.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('chat') ? 'active':''}}"
+                        href="{{url('/chat')}}">
                         <span class="micon bi bi-chat-right-dots"></span>
                         <span class="mtext">Chat</span>
                     </a>
                 </li>
                 <li>
-                    <a href="../page/invoice.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('invoice') ? 'active':''}}"
+                        href="{{url('/invoice')}}">
                         <span class="micon bi bi-receipt-cutoff"></span>
                         <span class="mtext">Invoice</span>
                     </a>
