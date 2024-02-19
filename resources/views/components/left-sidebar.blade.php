@@ -215,16 +215,36 @@
                         <span class="mtext">Extra Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/blank.html">Blank</a></li>
-                        <li><a href="../page/contact-directory.html">Contact Directory</a></li>
-                        <li><a href="../page/blog.html">Blog</a></li>
-                        <li><a href="../page/blog-detail.html">Blog Detail</a></li>
-                        <li><a href="../page/product.html">Product</a></li>
-                        <li><a href="../page/product-detail.html">Product Detail</a></li>
-                        <li><a href="../page/faq.html">FAQ</a></li>
-                        <li><a href="../page/profile.html">Profile</a></li>
-                        <li><a href="../page/gallery.html">Gallery</a></li>
-                        <li><a href="../page/pricing-table.html">Pricing Tables</a></li>
+                        <li><a class="{{ Request::is('blank') ? 'active':''}}"
+                                href="{{url('/blank')}}"> Blank</a>
+                        </li>
+                        <li><a class="{{ Request::is('contact-directory') ? 'active':''}}"
+                                href="{{url('/contact-directory')}}"> Contact Directory</a>
+                        </li>
+                        <li><a class="{{ Request::is('blog') ? 'active':''}}"
+                                href="{{url('/blog')}}"> Blog</a>
+                        </li>
+                        <li><a class="{{ Request::is('blog-detail') ? 'active':''}}"
+                                href="{{url('/blog-detail')}}"> Blog Detail</a>
+                        </li>
+                        <li><a class="{{ Request::is('product') ? 'active':''}}"
+                                href="{{url('/product')}}"> Product</a>
+                        </li>
+                        <li><a class="{{ Request::is('product-detail') ? 'active':''}}"
+                                href="{{url('/product-detail')}}"> Product Detail</a>
+                        </li>
+                        <li><a class="{{ Request::is('faq') ? 'active':''}}"
+                                href="{{url('/faq')}}"> FAQ</a>
+                        </li>
+                        <li><a class="{{ Request::is('profile') ? 'active':''}}"
+                                href="{{url('/profile')}}"> Profile</a>
+                        </li>
+                        <li><a class="{{ Request::is('gallery') ? 'active':''}}"
+                                href="{{url('/gallery')}}"> Gallery</a>
+                        </li>
+                        <li><a class="{{ Request::is('pricing-table') ? 'active':''}}"
+                                href="{{url('/pricing-table')}}"> Pricing Tables</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">

@@ -179,3 +179,34 @@ Route::get('503', function () {
     return view('pages.503');
 });
 
+//Extra Pages
+Route::get('blank', function () {
+    return view('pages.blank');
+});
+Route::get('contact-directory', function () {
+    return view('pages.contact-directory');
+});
+Route::get('blog', function () {
+    return view('pages.blog');
+});
+Route::get('blog-detail', function () {
+    return view('pages.blog-detail');
+});
+Route::get('product', function () {
+    return view('pages.product');
+});
+Route::get('product-detail', function () {
+    return view('pages.product-detail');
+});
+Route::get('faq', function () {
+    return view('pages.faq');
+});
+Route::get('profile', function () {
+    return view('pages.profile');
+});
+Route::get('gallery', function () {
+    return view('pages.gallery');
+});
+Route::get('pricing-table', function () {
+    return view('pages.pricing-table');
+});
