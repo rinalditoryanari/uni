@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,11 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
 Route::get('/', function () {
-    return redirect('dashboard-1');
+    return view('welcome');
+//    return redirect('dashboard-1');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
 
 //Dashboard
 Route::get('dashboard-1', function () {
@@ -235,3 +246,7 @@ Route::get('color-settings', function () {
 Route::get('third-party-plugins', function () {
     return view('pages.third-party-plugins');
 });
+
+
+
+require __DIR__.'/auth.php';
