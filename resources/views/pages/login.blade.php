@@ -22,57 +22,39 @@
                         <div class="login-title">
                             <h2 class="text-center text-primary">Login To DeskApp</h2>
                         </div>
-                        <form>
-                            <div class="select-role">
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn active">
-                                        <input type="radio" name="options" id="admin"/>
-                                        <div class="icon">
-                                            <img
-                                                src="{{asset('images/briefcase.svg')}}"
-                                                class="svg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <span>I'm</span>
-                                        Manager
-                                    </label>
-                                    <label class="btn">
-                                        <input type="radio" name="options" id="user"/>
-                                        <div class="icon">
-                                            <img
-                                                src="{{asset('images/person.svg')}}"
-                                                class="svg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <span>I'm</span>
-                                        Employee
-                                    </label>
+                        @error('email')
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                {{ $message }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        @enderror
+                        <form method="post" action="{{ route('login') }}">
+                            @csrf
+                            <div class="input-group custom">
+                                <input
+                                    type="email" id="email" name="email"
+                                    class="form-control form-control-lg"
+                                    placeholder="Email"
+                                    value="{{old('email')}}"
+                                />
+                                <div class="input-group-append custom">
+                                    <span class="input-group-text">
+                                        <i class="icon-copy dw dw-user1"></i>
+                                    </span>
                                 </div>
                             </div>
                             <div class="input-group custom">
                                 <input
-                                    type="text"
+                                    type="password" id="password" name="password"
                                     class="form-control form-control-lg"
-                                    placeholder="Username"
+                                    placeholder="Password" value="{{old('password')}}"
                                 />
                                 <div class="input-group-append custom">
-										<span class="input-group-text"
-                                        ><i class="icon-copy dw dw-user1"></i
-                                            ></span>
-                                </div>
-                            </div>
-                            <div class="input-group custom">
-                                <input
-                                    type="password"
-                                    class="form-control form-control-lg"
-                                    placeholder="**********"
-                                />
-                                <div class="input-group-append custom">
-										<span class="input-group-text"
-                                        ><i class="dw dw-padlock1"></i
-                                            ></span>
+                                    <span class="input-group-text">
+                                        <i class="dw dw-padlock1"></i>
+                                    </span>
                                 </div>
                             </div>
                             <div class="row pb-30">
@@ -81,44 +63,25 @@
                                         <input
                                             type="checkbox"
                                             class="custom-control-input"
-                                            id="customCheck1"
+                                            id="remember_me" name="remember"
                                         />
-                                        <label class="custom-control-label" for="customCheck1"
-                                        >Remember</label
-                                        >
+                                        <label class="custom-control-label" for="customCheck1">Remember</label>
                                     </div>
                                 </div>
-                                <div class="col-6">
-                                    <div class="forgot-password">
-                                        <a href="{{url('/forgot-password')}}">Forgot Password</a>
+                                @if (Route::has('password.request'))
+                                    <div class="col-6">
+                                        <div class="forgot-password">
+                                            <a href="{{url('/forgot-password')}}">Forgot Password</a>
+                                        </div>
                                     </div>
-                                </div>
+                                @endif
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="input-group mb-0">
-                                        <!--
-                                        use code for form submit
                                         <input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign In">
-                                    -->
-                                        <a
-                                            class="btn btn-primary btn-lg btn-block"
-                                            href="{{url('/')}}"
-                                        >Sign In</a
-                                        >
                                     </div>
-                                    <div
-                                        class="font-16 weight-600 pt-10 pb-10 text-center"
-                                        data-color="#707373"
-                                    >
-                                        OR
-                                    </div>
-                                    <div class="input-group mb-0">
-                                        <a
-                                            class="btn btn-outline-primary btn-lg btn-block"
-                                            href="{{url('register')}}"
-                                        >Register To Create Account</a
-                                        >
+                                    <div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">
                                     </div>
                                 </div>
                             </div>
