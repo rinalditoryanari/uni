@@ -65,16 +65,17 @@
                                             class="custom-control-input"
                                             id="remember_me" name="remember"
                                         />
-                                        <label class="custom-control-label" for="customCheck1">Remember</label>
+                                        <label class="custom-control-label" for="remember_me">Remember</label>
                                     </div>
                                 </div>
-                                @if (Route::has('password.request'))
-                                    <div class="col-6">
-                                        <div class="forgot-password">
-                                            <a href="{{url('/forgot-password')}}">Forgot Password</a>
-                                        </div>
-                                    </div>
-                                @endif
+{{--                                We're not doing that--}}
+{{--                                @if (Route::has('password.request'))--}}
+{{--                                    <div class="col-6">--}}
+{{--                                        <div class="forgot-password">--}}
+{{--                                            <a href="{{url('/forgot-password')}}">Forgot Password</a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                @endif--}}
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
