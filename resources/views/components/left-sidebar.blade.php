@@ -81,22 +81,48 @@
                         <span class="mtext"> UI Elements </span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/ui-buttons.html">Buttons</a></li>
-                        <li><a href="../page/ui-cards.html">Cards</a></li>
-                        <li><a href="../page/ui-cards-hover.html">Cards Hover</a></li>
-                        <li><a href="../page/ui-modals.html">Modals</a></li>
-                        <li><a href="../page/ui-tabs.html">Tabs</a></li>
-                        <li>
-                            <a href="../page/ui-tooltip-popover.html">Tooltip &amp; Popover</a>
+                        <li><a class="{{ Request::is('ui-buttons') ? 'active':''}}"
+                                href="{{url('/ui-buttons')}}">Buttons</a>
                         </li>
-                        <li><a href="../page/ui-sweet-alert.html">Sweet Alert</a></li>
-                        <li><a href="../page/ui-notification.html">Notification</a></li>
-                        <li><a href="../page/ui-timeline.html">Timeline</a></li>
-                        <li><a href="../page/ui-progressbar.html">Progressbar</a></li>
-                        <li><a href="../page/ui-typography.html">Typography</a></li>
-                        <li><a href="../page/ui-list-group.html">List group</a></li>
-                        <li><a href="../page/ui-range-slider.html">Range slider</a></li>
-                        <li><a href="../page/ui-carousel.html">Carousel</a></li>
+                        <li><a class="{{ Request::is('ui-cards') ? 'active':''}}"
+                                href="{{url('/ui-cards')}}">Cards</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-cards-hover') ? 'active':''}}"
+                                href="{{url('/ui-cards-hover')}}">Cards Hover</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-modals') ? 'active':''}}"
+                                href="{{url('/ui-modals')}}">Modals</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-tabs') ? 'active':''}}"
+                                href="{{url('/ui-tabs')}}">Tabs</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-tooltip-popover') ? 'active':''}}"
+                                href="{{url('/ui-tooltip-popover')}}">Tooltip &amp; Popover</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-sweet-alert') ? 'active':''}}"
+                                href="{{url('/ui-sweet-alert')}}">Sweet Alert</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-notification') ? 'active':''}}"
+                                href="{{url('/ui-notification')}}">Notification</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-timeline') ? 'active':''}}"
+                                href="{{url('/ui-timeline')}}">Timeline</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-progressbar') ? 'active':''}}"
+                                href="{{url('/ui-progressbar')}}">Progressbar</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-typography') ? 'active':''}}"
+                                href="{{url('/ui-typography')}}">Typography</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-list-group') ? 'active':''}}"
+                                href="{{url('/ui-list-group')}}">List group</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-range-slider') ? 'active':''}}"
+                                href="{{url('/ui-range-slider')}}">Range slider</a>
+                        </li>
+                        <li><a class="{{ Request::is('ui-carousel') ? 'active':''}}"
+                                href="{{url('/ui-carousel')}}">Carousel</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -105,12 +131,24 @@
                         <span class="mtext">Icons</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/bootstrap-icon.html">Bootstrap Icons</a></li>
-                        <li><a href="../page/font-awesome.html">FontAwesome Icons</a></li>
-                        <li><a href="../page/foundation.html">Foundation Icons</a></li>
-                        <li><a href="../page/ionicons.html">Ionicons Icons</a></li>
-                        <li><a href="../page/themify.html">Themify Icons</a></li>
-                        <li><a href="../page/custom-icon.html">Custom Icons</a></li>
+                        <li><a class="{{ Request::is('bootstrap-icon') ? 'active':''}}"
+                                href="{{url('/bootstrap-icon')}}"> Bootstrap Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('font-awesome') ? 'active':''}}"
+                                href="{{url('/font-awesome')}}"> FontAwesome Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('foundation') ? 'active':''}}"
+                                href="{{url('/foundation')}}"> Foundation Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('ionicons') ? 'active':''}}"
+                                href="{{url('/ionicons')}}"> Ionicons Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('themify') ? 'active':''}}"
+                                href="{{url('/themify')}}"> Themify Icons</a>
+                        </li>
+                        <li><a class="{{ Request::is('custom-icon') ? 'active':''}}"
+                                href="{{url('/custom-icon')}}"> Custom Icons</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -119,10 +157,18 @@
                         <span class="mtext">Charts</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/highchart.html">Highchart</a></li>
-                        <li><a href="../page/knob-chart.html">jQuery Knob</a></li>
-                        <li><a href="../page/jvectormap.html">jvectormap</a></li>
-                        <li><a href="../page/apexcharts.html">Apexcharts</a></li>
+                        <li><a class="{{ Request::is('highchart') ? 'active':''}}"
+                                href="{{url('/highchart')}}"> Highchart</a>
+                        </li>
+                        <li><a class="{{ Request::is('knob-chart') ? 'active':''}}"
+                                href="{{url('/knob-chart')}}"> jQuery Knob</a>
+                        </li>
+                        <li><a class="{{ Request::is('jvectormap') ? 'active':''}}"
+                                href="{{url('/jvectormap')}}"> jvectormap</a>
+                        </li>
+                        <li><a class="{{ Request::is('apexcharts') ? 'active':''}}"
+                                href="{{url('/apexcharts')}}"> Apexcharts</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -131,10 +177,17 @@
                         <span class="mtext">Additional Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/video-player.html">Video Player</a></li>
-                        <li><a href="../page/login.html">Login</a></li>
-                        <li><a href="../page/forgot-password.html">Forgot Password</a></li>
-                        <li><a href="../page/reset-password.html">Reset Password</a></li>
+                        <li><a class="{{ Request::is('video-player') ? 'active':''}}"
+                                href="{{url('/video-player')}}"> Video Player</a>
+                        </li>
+                        <li><a class="{{ Request::is('login') ? 'active':''}}"
+                                href="{{url('/login')}}"> Login</a></li>
+                        <li><a class="{{ Request::is('forgot-password') ? 'active':''}}"
+                                href="{{url('/forgot-password')}}"> Forgot Password</a>
+                        </li>
+                        <li><a class="{{ Request::is('reset-password') ? 'active':''}}"
+                                href="{{url('/reset-password')}}"> Reset Password</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -143,11 +196,16 @@
                         <span class="mtext">Error Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/400.html">400</a></li>
-                        <li><a href="../page/403.html">403</a></li>
-                        <li><a href="../page/404.html">404</a></li>
-                        <li><a href="../page/500.html">500</a></li>
-                        <li><a href="../page/503.html">503</a></li>
+                        <li><a class="{{ Request::is('400') ? 'active':''}}"
+                                href="{{url('/400')}}">400</a></li>
+                        <li><a class="{{ Request::is('403') ? 'active':''}}"
+                                href="{{url('/403')}}">403</a></li>
+                        <li><a class="{{ Request::is('404') ? 'active':''}}"
+                                href="{{url('/404')}}">404</a></li>
+                        <li><a class="{{ Request::is('500') ? 'active':''}}"
+                                href="{{url('/500')}}">500</a></li>
+                        <li><a class="{{ Request::is('503') ? 'active':''}}"
+                                href="{{url('/503')}}">503</a></li>
                     </ul>
                 </li>
 
@@ -157,16 +215,36 @@
                         <span class="mtext">Extra Pages</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/blank.html">Blank</a></li>
-                        <li><a href="../page/contact-directory.html">Contact Directory</a></li>
-                        <li><a href="../page/blog.html">Blog</a></li>
-                        <li><a href="../page/blog-detail.html">Blog Detail</a></li>
-                        <li><a href="../page/product.html">Product</a></li>
-                        <li><a href="../page/product-detail.html">Product Detail</a></li>
-                        <li><a href="../page/faq.html">FAQ</a></li>
-                        <li><a href="../page/profile.html">Profile</a></li>
-                        <li><a href="../page/gallery.html">Gallery</a></li>
-                        <li><a href="../page/pricing-table.html">Pricing Tables</a></li>
+                        <li><a class="{{ Request::is('blank') ? 'active':''}}"
+                                href="{{url('/blank')}}"> Blank</a>
+                        </li>
+                        <li><a class="{{ Request::is('contact-directory') ? 'active':''}}"
+                                href="{{url('/contact-directory')}}"> Contact Directory</a>
+                        </li>
+                        <li><a class="{{ Request::is('blog') ? 'active':''}}"
+                                href="{{url('/blog')}}"> Blog</a>
+                        </li>
+                        <li><a class="{{ Request::is('blog-detail') ? 'active':''}}"
+                                href="{{url('/blog-detail')}}"> Blog Detail</a>
+                        </li>
+                        <li><a class="{{ Request::is('product') ? 'active':''}}"
+                                href="{{url('/product')}}"> Product</a>
+                        </li>
+                        <li><a class="{{ Request::is('product-detail') ? 'active':''}}"
+                                href="{{url('/product-detail')}}"> Product Detail</a>
+                        </li>
+                        <li><a class="{{ Request::is('faq') ? 'active':''}}"
+                                href="{{url('/faq')}}"> FAQ</a>
+                        </li>
+                        <li><a class="{{ Request::is('profile') ? 'active':''}}"
+                                href="{{url('/profile')}}"> Profile</a>
+                        </li>
+                        <li><a class="{{ Request::is('gallery') ? 'active':''}}"
+                                href="{{url('/gallery')}}"> Gallery</a>
+                        </li>
+                        <li><a class="{{ Request::is('pricing-table') ? 'active':''}}"
+                                href="{{url('/pricing-table')}}"> Pricing Tables</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -194,19 +272,22 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="../page/sitemap.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('sitemap') ? 'active':''}}"
+                        href="{{url('/sitemap')}}">
                         <span class="micon bi bi-diagram-3"></span>
                         <span class="mtext">Sitemap</span>
                     </a>
                 </li>
                 <li>
-                    <a href="../page/chat.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('chat') ? 'active':''}}"
+                        href="{{url('/chat')}}">
                         <span class="micon bi bi-chat-right-dots"></span>
                         <span class="mtext">Chat</span>
                     </a>
                 </li>
                 <li>
-                    <a href="../page/invoice.html" class="dropdown-toggle no-arrow">
+                    <a class="dropdown-toggle no-arrow {{ Request::is('invoice') ? 'active':''}}"
+                        href="{{url('/invoice')}}">
                         <span class="micon bi bi-receipt-cutoff"></span>
                         <span class="mtext">Invoice</span>
                     </a>
@@ -223,11 +304,17 @@
                         <span class="mtext">Documentation</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../page/introduction.html">Introduction</a></li>
-                        <li><a href="../page/getting-started.html">Getting Started</a></li>
-                        <li><a href="../page/color-settings.html">Color Settings</a></li>
-                        <li>
-                            <a href="../page/third-party-plugins.html">Third Party Plugins</a>
+                        <li><a class="{{ Request::is('introduction') ? 'active':''}}"
+                                href="{{url('/introduction')}}"> Introduction</a>
+                        </li>
+                        <li><a class="{{ Request::is('getting-started') ? 'active':''}}"
+                                href="{{url('/getting-started')}}"> Getting Started</a>
+                        </li>
+                        <li><a class="{{ Request::is('color-settings') ? 'active':''}}"
+                                href="{{url('/color-settings')}}"> Color Settings</a>
+                        </li>
+                        <li><a class="{{ Request::is('third-party-plugins') ? 'active':''}}"
+                                href="{{url('/third-party-plugins')}}"> Third Party Plugins</a>
                         </li>
                     </ul>
                 </li>
