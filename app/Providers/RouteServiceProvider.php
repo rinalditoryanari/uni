@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      * The path to your application's "dashboard" route, based on the user's role.
      * @var strings
      */
-    public const HOME  = 'dashboard';
+    public const HOME  = '';
     public static function home(): string
     {
         if (auth()->user()) {
@@ -23,7 +23,7 @@ class RouteServiceProvider extends ServiceProvider
                     return route('admin.dashboard');
                     break;
                 case 1:
-                    return route('mahasiswa.dashboard');
+                    return route('mhsw.dashboard');
                     break;
                 case 2:
                     return route('dosen.dashboard');

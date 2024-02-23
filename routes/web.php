@@ -28,25 +28,25 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route:: name('admin.')->prefix('admin')->group(function (){
+Route::prefix('admin')->middleware('admin')->name('admin.')->group(function (){
     Route::get('dashboard', function () {
         return view('pages.index');
     })->name('dashboard');
 });
 
-Route:: name('mahasiswa.')->prefix('mahasiswa')->group(function (){
+Route::prefix('mhsw')->middleware('mhsw')->name('mhsw.')->group(function (){
     Route::get('dashboard', function () {
         return view('pages.index');
     })->name('dashboard');
 });
 
-Route:: name('dosen.')->prefix('dosen')->group(function (){
+Route::prefix('dosen')->middleware('dosen')->name('dosen.')->group(function (){
     Route::get('dashboard', function () {
         return view('pages.index');
     })->name('dashboard');
 });
 
-Route:: name('asdos.')->prefix('asdos')->group(function (){
+Route::prefix('asdos')->middleware('asdos')->name('asdos.')->group(function (){
     Route::get('dashboard', function () {
         return view('pages.index');
     })->name('dashboard');
