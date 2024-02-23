@@ -28,7 +28,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::prefix('admin')->middleware('admin')->name('admin.')->group(function (){
+Route::prefix('staf')->middleware('staf')->name('staf.')->group(function (){
     Route::get('dashboard', function () {
         return view('pages.index');
     })->name('dashboard');

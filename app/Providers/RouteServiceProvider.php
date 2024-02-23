@@ -20,7 +20,7 @@ class RouteServiceProvider extends ServiceProvider
         if (auth()->user()) {
             switch (auth()->user()->role) {
                 case 0:
-                    return route('admin.dashboard');
+                    return route('staf.dashboard');
                     break;
                 case 1:
                     return route('mhsw.dashboard');
