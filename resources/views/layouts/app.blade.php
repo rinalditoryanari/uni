@@ -58,8 +58,6 @@
     <!-- End Google Tag Manager -->
 </head>
 <body>
-{{--@include('components.preload')--}}
-
 @include('components.header')
 
 @include('components.right-sidebar')
@@ -75,9 +73,6 @@
 
     @include('components.footer')
 </div>
-<!-- welcome modal start -->
-{{--@include('components.welcome')--}}
-<!-- welcome modal end -->
 <!-- js -->
 <script src="{{asset('scripts/pages/core.js')}}"></script>
 <script src="{{asset('scripts/pages/script.min.js')}}"></script>

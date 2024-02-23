@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-//    return redirect('dashboard-1');
+    return redirect('login');
 });
 
 Route::get('/dashboard', function () {
@@ -29,6 +28,29 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route:: name('admin.')->prefix('admin')->group(function (){
+    Route::get('dashboard', function () {
+        return view('pages.index');
+    })->name('dashboard');
+});
+
+Route:: name('mahasiswa.')->prefix('mahasiswa')->group(function (){
+    Route::get('dashboard', function () {
+        return view('pages.index');
+    })->name('dashboard');
+});
+
+Route:: name('dosen.')->prefix('dosen')->group(function (){
+    Route::get('dashboard', function () {
+        return view('pages.index');
+    })->name('dashboard');
+});
+
+Route:: name('asdos.')->prefix('asdos')->group(function (){
+    Route::get('dashboard', function () {
+        return view('pages.index');
+    })->name('dashboard');
+});
 
 //Dashboard
 Route::get('dashboard-1', function () {

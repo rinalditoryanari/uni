@@ -69,20 +69,13 @@
                 <img src="{{asset('images/deskapp-logo.svg')}}" alt=""/>
             </a>
         </div>
-{{--        <div class="login-menu">--}}
-{{--            <ul>--}}
-{{--                <li><a href="@yield('link-button')">@yield('button')</a></li>--}}
-{{--            </ul>--}}
-{{--        </div>--}}
     </div>
 </div>
 
 <!-- Content -->
 @yield('main')
 
-<!-- welcome modal start -->
-{{--@include('components.welcome')--}}
-<!-- welcome modal end -->
+
 <!-- js -->
 <script src="{{asset('scripts/pages/core.js')}}"></script>
 <script src="{{asset('scripts/pages/script.min.js')}}"></script>

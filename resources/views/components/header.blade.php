@@ -140,14 +140,13 @@
                     <a class="dropdown-item" href="{{url('/profile')}}"><i class="dw dw-user1"></i> Profile</a>
                     <a class="dropdown-item" href="{{url('/profile')}}"><i class="dw dw-settings2"></i> Setting</a>
                     <a class="dropdown-item" href="{{url('/faq')}}"><i class="dw dw-help"></i> Help</a>
-                    <a class="dropdown-item" href="{{url('/login')}}"><i class="dw dw-logout"></i> Log Out</a>
+                    <form method="post" action="{{route('logout')}}"> @csrf
+                        <button type="submit" class="dropdown-item">
+                            <i class="dw dw-logout"></i> Log Out
+                        </button>
+                    </form>
                 </div>
             </div>
-        </div>
-        <div class="github-link">
-            <a href="https://github.com/dropways/deskapp" target="_blank">
-                <img src="{{asset('images/github.svg')}}" alt=""/>
-            </a>
         </div>
     </div>
 </div>

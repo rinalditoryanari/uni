@@ -11,13 +11,30 @@ use Illuminate\Support\Facades\Route;
 class RouteServiceProvider extends ServiceProvider
 {
     /**
-     * The path to your application's "home" route.
-     *
-     * Typically, users are redirected here after authentication.
-     *
-     * @var string
+     * The path to your application's "dashboard" route, based on the user's role.
+     * @var strings
      */
-    public const HOME = '/dashboard';
+    public const HOME  = 'dashboard';
+    public static function home(): string
+    {
+        if (auth()->user()) {
+            switch (auth()->user()->role) {
+                case 0:
+                    return route('admin.dashboard');
+                    break;
+                case 1:
+                    return route('mahasiswa.dashboard');
+                    break;
+                case 2:
+                    return route('dosen.dashboard');
+                    break;
+                case 3:
+                    return route('asdos.dashboard');
+                    break;
+            }
+        }
+        return self::HOME; // Default redirect for non-authenticated user
+    }
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
