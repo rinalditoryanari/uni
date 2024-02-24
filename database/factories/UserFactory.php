@@ -5,6 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use fzaninotto\Faker\Provider\id_ID;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
@@ -15,6 +16,7 @@ class UserFactory extends Factory
      * The current password being used by the factory.
      */
     protected static ?string $password;
+    protected static ?string $role;
 
     /**
      * Define the model's default state.
@@ -23,13 +25,14 @@ class UserFactory extends Factory
      */
     public function definition(): array
     {
+//        dd(static::$password);
         return [
-            'firstname' => fake()->firstName(),
-            'lastname' => fake()->lastName(),
+            'firstname' => fake('id_ID')->firstName(),
+            'lastname' => fake('id_ID')->lastName(),
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
-            'role' => fake()->numberBetween(0,3),
+            'role' => static::$role ??= fake()->numberBetween(0,3),
             'remember_token' => Str::random(10),
         ];
     }
