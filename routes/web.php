@@ -18,6 +18,8 @@ Route::get('/', function () {
     return redirect('login');
 });
 
+Route::get('idk', [\App\Http\Controllers\idkController::class, 'index']);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

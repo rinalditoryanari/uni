@@ -44,4 +44,13 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    /*
+     * Relationship other model to User
+     */
+    public function staf()
+    {
+        return $this->hasOne(Staff::class);
+    }
+
 }
