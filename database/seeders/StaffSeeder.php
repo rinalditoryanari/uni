@@ -13,6 +13,6 @@ class StaffSeeder extends Seeder
      */
     public function run(): void
     {
-        Staff::factory()->count(50)->withPassword ('12345678')->create();
+        Staff::factory()->count(4)->withPassword ('12345678')->create();
     }
 }
