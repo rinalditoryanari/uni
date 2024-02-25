@@ -27,10 +27,10 @@ class StaffFactory extends Factory
                 'role' => 1
             ])->id,
             'nik' => fake('id_ID')->nik(),
-//            'firstname' => fake()->firstName(),
-//            'lastname' => fake()->lastName(),
+//            'first_name' => fake()->firstName(),
+//            'last_name' => fake()->lastName(),
             'phone' => fake('id_ID')->phoneNumber(),
-            'jns_kelamin' => fake()->randomElement(['Laki-laki', 'Perempuan']),
+            'jenis_kelamin' => fake()->randomElement(['Laki-laki', 'Perempuan']),
             'alamat' => fake('id_ID')->address(),
         ];
     }

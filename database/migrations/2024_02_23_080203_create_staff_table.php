@@ -16,11 +16,11 @@ return new class extends Migration
             $table->id();
             $table->foreignIdFor(User::class)->constrained()->cascadeOnDelete();
             $table->string('nik')->unique();
-//            $table->string('firstName');
-//            $table->string('lastName');
+//            $table->string('first_name');
+//            $table->string('last_name');
             $table->string('phone')->nullable();
             $table->string('photo')->nullable();
-            $table->enum('jns_kelamin', ['Laki-laki', 'Perempuan']);
+            $table->enum('jenis_kelamin', ['Laki-laki', 'Perempuan']);
             $table->text('alamat')->nullable();
             $table->timestamps();
         });

@@ -16,10 +16,10 @@ class Dosen extends Model
      */
     protected $fillable = [
         'nik',
-//        'firstName',
-//        'lastName',
+//        'first_name',
+//        'last_name',
         'phone',
-        'jns_kelamin',
+        'jenis_kelamin',
         'alamat'
     ];
 

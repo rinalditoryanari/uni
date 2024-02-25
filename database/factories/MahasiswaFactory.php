@@ -25,14 +25,14 @@ class MahasiswaFactory extends Factory
                 'role' => 2
             ])->id,
             'nim' => fake()->randomNumber(8, true),
-//            'firstname' => fake()->firstName(),
-//            'lastname' => fake()->lastName(),
-            'namaAyah' => fake('id_ID')->name('male'),
-            'namaIbu' => fake('id_ID')->name('female'),
-            'tmpLahir' => fake('en_US')->state(),
-            'tglLahir' =>fake()->date,
+//            'first_name' => fake()->firstName(),
+//            'last_name' => fake()->lastName(),
+            'nama_ayah' => fake('id_ID')->name('male'),
+            'nama_ibu' => fake('id_ID')->name('female'),
+            'tempat_lahir' => fake('en_US')->state(),
+            'tanggal_lahir' =>fake()->date,
             'phone' => fake('id_ID')->phoneNumber(),
-            'jns_kelamin' => fake()->randomElement(['Laki-laki', 'Perempuan']),
+            'jenis_kelamin' => fake()->randomElement(['Laki-laki', 'Perempuan']),
             'alamat' => fake('id_ID')->address(),
         ];
     }
