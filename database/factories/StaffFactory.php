@@ -24,7 +24,7 @@ class StaffFactory extends Factory
         return [
             'user_id' => User::factory()->create([
                 'password' => self::$password  ?: '12345678',
-                'role' => 1
+                'role' => 0
             ])->id,
             'nik' => fake('id_ID')->nik(),
 //            'first_name' => fake()->firstName(),
