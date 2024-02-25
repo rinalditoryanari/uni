@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             StaffSeeder::class,
             DosenSeeder::class,
             MahasiswaSeeder::class,
+            AsistenDosenSeeder::class,
         ]);
     }
 }

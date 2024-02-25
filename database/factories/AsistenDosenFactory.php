@@ -6,9 +6,9 @@ use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Dosen>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\AsistenDosen>
  */
-class DosenFactory extends Factory
+class AsistenDosenFactory extends Factory
 {
     protected static ?string $password;
     /**
@@ -21,7 +21,7 @@ class DosenFactory extends Factory
         return [
             'user_id' => User::factory()->create([
                 'password' => self::$password  ?: '12345678',
-                'role' => 2
+                'role' => 3
             ])->id,
             'nik' => fake('id_ID')->nik(),
 //            'first_name' => fake()->firstName(),

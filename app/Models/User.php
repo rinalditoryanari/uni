@@ -61,4 +61,9 @@ class User extends Authenticatable
     {
         return $this->hasOne(Mahasiswa::class);
     }
+
+    public function asdos()
+    {
+        return $this->hasOne(AsistenDosen::class);
+    }
 }
