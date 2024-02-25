@@ -21,12 +21,16 @@ class MahasiswaFactory extends Factory
     {
         return [
             'user_id' => User::factory()->create([
-                'password' => self::$password  ?: '12345678',
+                'password' => self::$password ?: '12345678',
                 'role' => 2
             ])->id,
-            'nik' => fake('id_ID')->nik(),
+            'nim' => fake()->randomNumber(8, true),
 //            'firstname' => fake()->firstName(),
 //            'lastname' => fake()->lastName(),
+            'namaAyah' => fake('id_ID')->name('male'),
+            'namaIbu' => fake('id_ID')->name('female'),
+            'tmpLahir' => fake('en_US')->state(),
+            'tglLahir' =>fake()->date,
             'phone' => fake('id_ID')->phoneNumber(),
             'jns_kelamin' => fake()->randomElement(['Laki-laki', 'Perempuan']),
             'alamat' => fake('id_ID')->address(),
@@ -41,7 +45,7 @@ class MahasiswaFactory extends Factory
      */
     public function withPassword(string $password): self
     {
-        self::$password  = $password;
+        self::$password = $password;
 
         return $this;
     }
